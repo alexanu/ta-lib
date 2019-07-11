@@ -2,11 +2,11 @@
 language: python
 python:
   - "2.7"
-  - "3.4"
   - "3.5"
   - "3.6"
-os:
-  - linux
+  - "3.7"
+os: linux
+dist: xenial
 env:
   global:
     - DEPS_DIR=$HOME/dependencies
